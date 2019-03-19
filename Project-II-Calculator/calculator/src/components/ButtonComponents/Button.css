@@ -11,7 +11,9 @@
     border: 1px solid gray;
     width: 100px;
   }
-  
+  .number-btn:hover{
+      border:3px solid darkgray;
+    }
   .red-btn {
     background: darkred;
     color: white;
@@ -19,6 +21,9 @@
     font-size: 40px;
     font-weight: 300;
     width: 100px;
+  }
+  .red-btn:hover{
+    border:3px solid darkgray;
   }
   
   .big-btn {
@@ -29,6 +34,9 @@
     background: white;
     border: 1px solid grey;
     width: 300px;
+  }
+  .big-btn:hover{
+    border:3px solid darkgray;
   }
   
  
