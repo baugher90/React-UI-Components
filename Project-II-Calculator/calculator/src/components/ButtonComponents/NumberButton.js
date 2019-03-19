@@ -1,12 +1,6 @@
 import React from 'react';
 import './Button.css';
 
-function NumberButton() {
-    return(
-        <div className="calc-display">
-            <h1>NumberButtons</h1>
-        </div>
-    );
-};
+const NumberButton = props => (<button className={`number-btn ${props.className}`}>{props.text}</button>);
 
 export default NumberButton;

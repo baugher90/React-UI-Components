@@ -1,12 +1,6 @@
 import React from 'react';
 import './Button.css';
 
-function ActionButton() {
-    return(
-        <div className="calc-display">
-            <h1>ActionButtons</h1>
-        </div>
-    );
-};
+const ActionButton = props => <button className={`big-btn ${props.className}`}>{props.text}</button>;
 
 export default ActionButton;
